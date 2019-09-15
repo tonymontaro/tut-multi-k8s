@@ -46,4 +46,7 @@ helm install stable/nginx-ingress --name my-nginx --set rbac.create=true
 # delete install with Helm
 helm del --purge my-nginx
 
+# HTTPS Setup
+# - install jetstack/cert-manager using Helm
+https://docs.cert-manager.io/en/latest/getting-started/install/kubernetes.html
 
